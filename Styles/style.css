@@ -183,6 +183,7 @@
 .chefs {
     text-align: center;
     overflow: hidden;
+    padding-bottom: 90px;
     background-color: var(--section-primary-background-color);
 }
 
