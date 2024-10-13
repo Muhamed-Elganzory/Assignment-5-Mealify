@@ -1,0 +1,181 @@
+/** --------- CSS Variables --------- */
+:root {
+    --background-icon: #CE1212;
+    --btn-book-color-hover: #E61414;
+    --btn-watch-color-hover: #E61414;
+    --shadow-hover: gray;
+    --line-color: #CE1212;
+    --primary-color-text: #21252;
+    --btn-book-color: #fff;
+    --btn-watch-icon: #212529;
+    --second-color-text: #4F4F5A;
+    --color-icon-moon: #212529;
+    --background-circle-color: #FFFFFF;
+    --primary-background-color: #FFFFFF;
+    --second-background-color: #EEEEEE;
+    --therd-background-color: #FFFFFF;
+    --section-primary-background-color: #FFFFFF;
+    --primary-color-title: #ce1212;
+    --wave-wave-dark: url(../Images/team-shape.svg);
+    --color-icon-info-contact-us: #FFFFFF;
+    --background-item-info: #F5F5F5;
+    --background-form: #FFFFFF;
+}
+
+/** --------- Activate Dark Mood --------- */
+:root:has(#dark-mod:checked) {
+    --background-icon: #C07D1F;
+    --btn-book-color-hover: #D78C23;
+    --btn-watch-color-hover: #D78C23;
+    --shadow-hover: #d78c232b;
+    --line-color: #C07D1F;
+    --primary-color-text: #FFFFFF;
+    --btn-book-color: #171717;
+    --btn-watch-icon: #fff;
+    --second-color-text: #9f9f9f;
+    --primary-color-icon: #171717;
+    --color-icon-moon: #FFFFFF;
+    --background-circle-color: #171717;
+    --primary-background-color: #171717;
+    --second-background-color: #252525;
+    --therd-background-color: #171717;
+    --section-primary-background-color: #202020;
+    --primary-color-title: #C07D1F;
+    --wave-wave-dark: url(../Images/team-shape-dark.svg);
+    --color-icon-info-contact-us: #171717;
+    --background-item-info: #0D0D0D;
+    --background-form: #171717;
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"
+}
+
+#dark-mod {
+    position: absolute;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/** ---- Cscrollbar ---- */
+::-webkit-scrollbar {
+    width: 12px;
+    background: #DFDFDF;
+    color: #0D0D0D;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f2f2f;
+    border-radius: 6px;
+}
+
+/** ---- Root Show-Hidden-Menu ---- */
+:root {
+    --checkbox-show-hidden-menu: 0;
+    --visibility-items-menu: hidden;
+    --hidden: 0;
+}
+
+:root:has(#menu:checked) {
+    --checkbox-show-hidden-menu: 1;
+    --visibility-items-menu: visible;
+    --hidden: 1;
+}
+
+:root:has(#close-menu:checked) {
+    --checkbox-show-hidden-menu: 0;
+    --visibility-items-menu: hidden;
+    --hidden: 1;
+}
+
+/*! ---- Show-Hidden-Menu ---- */
+.Menu,
+.btn-hidden,
+#menu,
+.overlay-show-hidden-menu,
+.btn-close-menu,
+#close-menu {
+    opacity: var(--hidden);
+}
+
+.Menu {
+    position: absolute;
+    top: -60px;
+    right: 60px;
+    color: var(--color-icon-moon);
+}
+
+.Menu i,
+.Menu input {
+    cursor: pointer;
+}
+
+/** --------- General Style --------- */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.p-top-bottom-7 {
+    padding: 7% 0px 5% 0px;
+}
+
+.title {
+    margin-bottom: -50px;
+}
+
+/** --------- Font Family --------- */
+.f-family-open {
+    font-family: "Open Sans", sans-serif;
+}
+
+.f-family-Amatic {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    color: var(--primary-color-text);
+}
+
+.f-family-Amatic-small-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #7f7f90;
+    font-size: 14px;
+}
+
+.f-family-Amatic-title {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--primary-color-text);
+}
+
+.title span {
+    color: var(--primary-color-title);
+}

@@ -1,0 +1,459 @@
+@media (min-width: 300px) and (max-width: 990px) {
+
+    .Menu,
+    .btn-hidden,
+    #menu,
+    .overlay-show-hidden-menu,
+    .btn-close-menu,
+    #close-menu {
+        opacity: 1;
+    }
+
+
+    /*! ---- Show-Hidden-Menu ---- */
+    .Menu {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+    }
+
+    .overlay-show-hidden-menu {
+        width: 200px;
+        height: 100vh;
+        background-color: #ffffff;
+        position: absolute;
+        top: 100px;
+        right: -10px;
+        opacity: var(--checkbox-show-hidden-menu);
+    }
+
+    .linkes #menu {
+        position: absolute;
+        top: 36px;
+        right: 57px;
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+    }
+
+    .btn-hidden {
+        position: absolute;
+        top: 34px;
+        right: 56px;
+        font-size: 25px;
+    }
+
+    .btn-close-menu {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 25px;
+        color: #2b2b2b;
+    }
+
+    #close-menu {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+    }
+
+    .linkes ul {
+        visibility: var(--visibility-items-menu);
+        display: flex;
+        row-gap: 20px;
+        flex-direction: column;
+        position: absolute;
+        right: 120px;
+        transform: translate(0%, 60%);
+    }
+
+    #home {
+        border-bottom: solid 2px var(--line-color);
+        color: #2b2b2b;
+    }
+
+    .linkes a:hover {
+        color: #2b2b2b;
+        border-bottom: solid 2px var(--line-color);
+    }
+
+    /*^ --------- Header Content --------- */
+    .header {
+        background-color: var(--second-background-color);
+        box-sizing: content-box;
+    }
+
+    .main-container {
+        transform: translate(0%, 8%);
+
+    }
+
+    .header-Content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-food,
+    .image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;
+        row-gap: 10px;
+    }
+
+    .btn-watch,
+    .btn-book {
+        font-size: 13px;
+    }
+
+    .btn-watch i {
+        position: absolute;
+        left: 23px;
+        top: 39%;
+    }
+
+    /*^ --------- Chefs --------- */
+    .title {
+        margin-bottom: 0px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ineer {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    /*^ --------- Gallery --------- */
+    .col-cards {
+        width: 100%;
+    }
+
+    /*^ --------- Contact-Us --------- */
+    .ineer-info {
+        width: 100%;
+    }
+
+    /*^ ---- Form Contact Us ---- */
+    .form #inp-name,
+    #inp-email {
+        width: 100%;
+    }
+
+    /*^ --------- Footer --------- */
+    .left-container-footer {
+        width: 100%;
+    }
+
+    .middle-container-footer {
+        width: 100%;
+    }
+
+    .right-container-footer {
+        width: 100%;
+    }
+
+    .input-email input {
+        width: 100%;
+    }
+
+    .input-email button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+
+    .Menu,
+    .btn-hidden,
+    #menu,
+    .overlay-show-hidden-menu,
+    .btn-close-menu,
+    #close-menu {
+        opacity: 1;
+    }
+
+
+    /*! ---- Show-Hidden-Menu ---- */
+    .Menu {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+    }
+
+    .overlay-show-hidden-menu {
+        width: 200px;
+        height: 100vh;
+        background-color: #ffffff;
+        position: absolute;
+        top: 100px;
+        right: -10px;
+        opacity: var(--checkbox-show-hidden-menu);
+    }
+
+    .linkes #menu {
+        position: absolute;
+        top: 36px;
+        right: 57px;
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+    }
+
+    .btn-hidden {
+        position: absolute;
+        top: 34px;
+        right: 56px;
+        font-size: 25px;
+    }
+
+    .btn-close-menu {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 25px;
+        color: #2b2b2b;
+    }
+
+    #close-menu {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+        opacity: 0;
+    }
+
+    .linkes ul {
+        visibility: var(--visibility-items-menu);
+        display: flex;
+        row-gap: 20px;
+        flex-direction: column;
+        position: absolute;
+        right: 120px;
+        transform: translate(0%, 60%);
+    }
+
+    #home {
+        border-bottom: solid 2px var(--line-color);
+        color: #2b2b2b;
+    }
+
+    .linkes a:hover {
+        color: #2b2b2b;
+        border-bottom: solid 2px var(--line-color);
+    }
+
+    /*^ --------- Header Content --------- */
+    .header {
+        background-color: var(--second-background-color);
+        box-sizing: content-box;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .main-container {
+        transform: translate(0%, 8%);
+    }
+
+    .header-Content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-food,
+    .image {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;
+        row-gap: 10px;
+    }
+
+    .btn-watch,
+    .btn-book {
+        font-size: 13px;
+    }
+
+    .btn-watch i {
+        position: absolute;
+        left: 23px;
+        top: 39%;
+    }
+
+    /*^ --------- Chefs --------- */
+    .title {
+        margin-bottom: 0px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ineer {
+        width: 40%;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    /*^ --------- Contact-Us --------- */
+    .ineer-info {
+        width: 49%;
+    }
+
+    /*^ ---- Form Contact Us ---- */
+    .form #inp-name,
+    #inp-email {
+        width: 48.4%;
+    }
+
+    /*^ --------- Footer --------- */
+    .left-container-footer {
+        width: 100%;
+    }
+
+    .middle-container-footer {
+        width: 100%;
+    }
+
+    .right-container-footer {
+        width: 100%;
+    }
+
+    .input-email input {
+        width: 100%;
+    }
+
+    .input-email button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1536px) {
+
+    /*^ --------- Header Content --------- */
+    .header {
+        background-color: var(--second-background-color);
+        box-sizing: content-box;
+    }
+
+    .main-container {
+        transform: translate(0%, 8%);
+    }
+
+    .header-Content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-food,
+    .image {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;
+        row-gap: 10px;
+    }
+
+    .btn-watch,
+    .btn-book {
+        font-size: 13px;
+    }
+
+    .btn-watch i {
+        position: absolute;
+        left: 23px;
+        top: 39%;
+    }
+
+    /*^ --------- Chefs --------- */
+    .title {
+        margin-bottom: 0px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ineer {
+        width: 33%;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    /*^ --------- Contact-Us --------- */
+    .ineer-info {
+        width: 49%;
+    }
+
+    /*^ ---- Form Contact Us ---- */
+    .form #inp-name,
+    #inp-email {
+        width: 48.7%;
+    }
+
+    /*^ --------- Footer --------- */
+    .left-container-footer {
+        width: 40%;
+    }
+
+    .middle-container-footer {
+        width: 59%;
+    }
+
+    .right-container-footer {
+        width: 100%;
+    }
+
+    .input-email input {
+        width: 100%;
+    }
+
+    .input-email button {
+        width: 100%;
+    }
+}
