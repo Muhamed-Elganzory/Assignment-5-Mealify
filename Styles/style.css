@@ -280,6 +280,7 @@
 /*^ --------- Gallery --------- */
 .gallery {
     text-align: center;
+    scroll-margin-block-start: 90px;
     background-color: var(--second-background-color);
 }
 
@@ -348,6 +349,7 @@
 /*^ --------- Contact-Us --------- */
 .ContactUs {
     padding: 0px 0px 70px 0px;
+    scroll-margin-block-start: 90px;
     background-color: var(--section-primary-background-color);
 }
 
